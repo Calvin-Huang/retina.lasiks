@@ -1,0 +1,50 @@
+.mangabox {
+    display: block;
+    position: relative;
+    text-align: left;
+}
+
+div.mangabox .active {
+    opacity: 1;
+}
+
+.mangabox .animate-block {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0;
+}
+
+.mangabox .animate-block .page {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.mangabox .next {
+    position: absolute;
+    cursor: pointer;
+    right: 0px;
+    top: 430px;
+    background-repeat: no-repeat;
+    background-image: url(../images/airetina-next01a.png);
+    width: 131px;
+    height: 178px;
+}
+
+.mangabox .prev {
+    position: absolute;
+    cursor: pointer;
+    left: 509px;
+    bottom: 6px;
+    background-repeat: no-repeat;
+    background-image: url(../images/airetina-back.png);
+    width: 130px;
+    height: 80px;
+}
+
+.mangabox .disable {
+    display: none;
+}

@@ -1,0 +1,36 @@
+#submit{
+    float: right;
+    margin: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    background: #fb9d23; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffc578 0%, #fb9d23 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffc578), color-stop(100%,#fb9d23)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ffc578 0%,#fb9d23 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ffc578 0%,#fb9d23 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ffc578 0%,#fb9d23 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #ffc578 0%,#fb9d23 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc578', endColorstr='#fb9d23',GradientType=0 ); /* IE6-9 */
+    font-weight: bold;
+    color: #FFFFFF;
+    border-radius: 7px;
+    text-shadow: 0px 0px 0.5px rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    border: 0;
+    /*box-shadow: 0px 0px 0px 1px rgb(19, 92, 134) inset, 0px 2px 1px 0px rgba(255, 255, 255, 0.75) inset;*/
+    -moz-box-shadow: 0px 0px 3px #000000;
+    -webkit-box-shadow: 0px 0px 3px #000000;
+    box-shadow: 0px 0px 3px #000000;
+}
+#submit:active{
+    background: #fb9d23; /* Old browsers */
+    background: -moz-linear-gradient(top, #fb9d23 0%, #ffc578 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fb9d23), color-stop(100%,#ffc578)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #fb9d23 0%,#ffc578 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fb9d23 0%,#ffc578 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #fb9d23 0%,#ffc578 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #fb9d23 0%,#ffc578 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb9d23', endColorstr='#ffc578',GradientType=0 ); /* IE6-9 */
+}
